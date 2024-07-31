@@ -1,0 +1,23 @@
+<RCC>
+  <qresource prefix="kernels">
+    <file>linear_black.png</file>
+    <file>rbf_black.png</file>
+    <file>poly_black.png</file>
+  </qresource>
+  <qresource prefix="licenses">
+    <file>opensource_package_licenses.html</file>
+    <file>license_text.html</file>
+  </qresource>
+  <qresource prefix="icons">
+    <file>okay.png</file>
+    <file>critical.png</file>
+    <file>warning.png</file>
+    <file>question.png</file>
+    <file>kernel_ok.png</file>
+    <file>kernel_warn.png</file>
+    <file>left_arrow.png</file>
+  </qresource>
+  <qresource prefix="logo">
+    <file>logo.png</file>
+  </qresource>
+</RCC>
