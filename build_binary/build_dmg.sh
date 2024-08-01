@@ -3,6 +3,8 @@
 # The destination of the APP should be passed as the first argument.
 # The name of the App should be passed as the second argument.
 # The path to the icon file should be passed as the third argument.
+# requirements: create-dmg (install with HomeBrew `brew install create-dmg`)
+
 # Check if output directory argument is provided
 if [ -z "$1" ]
     then
