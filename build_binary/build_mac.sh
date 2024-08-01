@@ -14,9 +14,14 @@ fi
 # check if packaging is requested
 if [ -z "$2" ]
   then
-      PACKAGE=true
-  else
       PACKAGE=false
+  else
+    if [ "$2" == "-p" ]
+        then
+            PACKAGE=true
+        else
+            PACKAGE=false
+    fi
 fi
 
 # check if build directory exists

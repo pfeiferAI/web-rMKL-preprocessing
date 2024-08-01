@@ -10,8 +10,8 @@ setup(
         ]
     },
     install_requires=[
-        'PySide6==6.5.3',
-        'numpy==2.0.2',
+        'PySide6==6.7.2',
+        'numpy==1.26.4',
         'pandas==2.2.2',
         'scipy==1.14.0',
         'scikit-learn==1.5.1',

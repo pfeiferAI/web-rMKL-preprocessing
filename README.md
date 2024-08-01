@@ -21,8 +21,7 @@ described below.
 For `macOS`, the application is bundled in a DMG and may either be dragged to the Programs folder or executed directly
 from the DMG. We currently only provide a binary for Apple Silicon (M1 and later) systems. If you are using an Intel-based, you will have to run the application from source.
 
-You may also run the application from source. We recommend using Python 3.12.4 since web-rMKL preprocessing was
-developed with this version. To run the application from source, please follow these steps:
+You may also run the application from source. We recommend using Python 3.12.4 since compatibility of all web-rMKL preprocessing dependencies was not examined for other versions of Python. To run the application from source, please follow these steps:
 - Clone this repository
 - [optional] Create a virtual environment with `python -m venv web-rMKL-preprocessing`
 - Install the web-rMKL preprocessing package with `pip install {path_to_repository}`. All necessary dependencies will

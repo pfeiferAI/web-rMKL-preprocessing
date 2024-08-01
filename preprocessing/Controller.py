@@ -180,8 +180,7 @@ class Controller:
                 remaining_names = []
                 self.view.show_warning("Kernel shape mismatch!",
                                        f"Kernel matrix import aborted: none of the imported matrices match the "
-                                       f"shape of the existing data ({' x '.join(
-                                           current_shape)}). All kernel "
+                                       f"shape of the existing data ({' x '.join(current_shape)}). All kernel "
                                        f"matrices must have the same shape. Please check the input data and try "
                                        f"again.")
         else:

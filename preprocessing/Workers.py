@@ -266,8 +266,7 @@ class FileHandler:
             try:
                 tmp_df = pd.read_csv(file, index_col=None, header=None)
             except:
-                status.emit(f"Error loading file {
-                os.path.basename(file)}...continuing")
+                status.emit(f"Error loading file {os.path.basename(file)}...continuing")
                 name_data_dict[os.path.basename(file)] = "Could not read file"
                 continue
             else:
@@ -356,8 +355,7 @@ class FileHandler:
         for name, kernel in name_kernel_dict.items():
             if export_path is None:
                 export_path = os.path.dirname(name)
-            status.emit(f"Exporting kernel to {
-            os.path.basename(export_path)}")
+            status.emit(f"Exporting kernel to {os.path.basename(export_path)}")
             try:
                 if csv:
                     np.savetxt(name, kernel, delimiter=",")
