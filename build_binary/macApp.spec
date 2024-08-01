@@ -26,7 +26,7 @@ exe = EXE(
     a.scripts,
     [],
     exclude_binaries=True,
-    name='web-rMKL_preprocessing',
+    name='web-rMKL-preprocessing',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
@@ -46,11 +46,11 @@ coll = COLLECT(
     strip=False,
     upx=True,
     upx_exclude=[],
-    name='web-rMKL_preprocessing',
+    name='web-rMKL-preprocessing',
 )
 app = BUNDLE(
     coll,
-    name='web-rMKL_preprocessing.app',
+    name='web-rMKL-preprocessing.app',
     icon='../res/logo.icns',
     bundle_identifier=None,
 )
